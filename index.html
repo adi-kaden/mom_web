@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antiqua Gallery | Fine Ancient Art & Ceramics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">ANTIQUA</span>
+                <span class="logo-sub">Gallery</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#collection" class="nav-link">Collection</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Established 1892</p>
+            <h1 class="hero-title">Timeless Treasures<br>From Ancient Worlds</h1>
+            <p class="hero-description">Curated collection of rare Italian ceramics, hand-painted porcelain, and exquisite antique pieces for the discerning collector.</p>
+            <a href="#collection" class="btn btn-primary">Explore Collection</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Featured Banner -->
+    <section class="featured-banner">
+        <div class="container">
+            <div class="banner-content">
+                <span class="banner-tag">Private Viewings Available</span>
+                <p>Each piece comes with certificate of authenticity and provenance documentation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section id="collection" class="collection">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Our Curated Selection</p>
+                <h2 class="section-title">The Collection</h2>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Pieces</button>
+                <button class="filter-btn" data-filter="vases">Vases & Urns</button>
+                <button class="filter-btn" data-filter="figurines">Figurines</button>
+                <button class="filter-btn" data-filter="mirrors">Mirrors</button>
+                <button class="filter-btn" data-filter="furniture">Furniture</button>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <article class="product-card" data-category="vases">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_geyiutgeyiutgeyi.png" alt="Venetian Lattice Urn">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Ceremonial Urn</span>
+                        <h3 class="product-name">Venetian Lattice Urn</h3>
+                        <p class="product-origin">Italy, circa 1780</p>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card" data-category="figurines">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_wgv71fwgv71fwgv7.png" alt="Swan Pair Figurines">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Porcelain Pair</span>
+                        <h3 class="product-name">Ebony & Ivory Swans</h3>
+                        <p class="product-origin">Meissen, circa 1850</p>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card" data-category="vases">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_53ynbb53ynbb53yn.png" alt="Swan Procession Bowl">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Centerpiece Bowl</span>
+                        <h3 class="product-name">Swan Procession Centerpiece</h3>
+                        <p class="product-origin">Capodimonte, circa 1820</p>
+                    </div>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-card" data-category="vases">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_hxd89hhxd89hhxd8.png" alt="Chevron Pattern Vase">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Decorative Vase</span>
+                        <h3 class="product-name">Byzantine Chevron Amphora</h3>
+                        <p class="product-origin">Constantinople, circa 1650</p>
+                    </div>
+                </article>
+
+                <!-- Product 5 -->
+                <article class="product-card" data-category="vases">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_5fig0b5fig0b5fig.png" alt="Terracotta Medallion Pots">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Pot Collection</span>
+                        <h3 class="product-name">Tuscan Medallion Vessels</h3>
+                        <p class="product-origin">Florence, circa 1720</p>
+                    </div>
+                </article>
+
+                <!-- Product 6 -->
+                <article class="product-card" data-category="vases">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_8zp84k8zp84k8zp8.png" alt="Lion Head Urns">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Urn Trio</span>
+                        <h3 class="product-name">Roman Lion Crest Urns</h3>
+                        <p class="product-origin">Rome, circa 1760</p>
+                    </div>
+                </article>
+
+                <!-- Product 7 -->
+                <article class="product-card" data-category="figurines">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_3le4r3le4r3le4r3.png" alt="Commedia dell'Arte Pair">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Figurine Pair</span>
+                        <h3 class="product-name">Commedia dell'Arte Duo</h3>
+                        <p class="product-origin">Venice, circa 1890</p>
+                    </div>
+                </article>
+
+                <!-- Product 8 -->
+                <article class="product-card" data-category="figurines">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_wmoa72wmoa72wmoa.png" alt="Pierrot Musician">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Porcelain Statue</span>
+                        <h3 class="product-name">Pierrot with Mandolin</h3>
+                        <p class="product-origin">Venice, circa 1885</p>
+                    </div>
+                </article>
+
+                <!-- Product 9 -->
+                <article class="product-card" data-category="figurines">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_vcwerdvcwerdvcwe.png" alt="Harlequin Dancer">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Porcelain Statue</span>
+                        <h3 class="product-name">Harlequin in Motion</h3>
+                        <p class="product-origin">Venice, circa 1888</p>
+                    </div>
+                </article>
+
+                <!-- Product 10 -->
+                <article class="product-card" data-category="mirrors">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_cxeggpcxeggpcxeg.png" alt="Della Robbia Mirror">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Ornate Mirror</span>
+                        <h3 class="product-name">Della Robbia Fruit Wreath</h3>
+                        <p class="product-origin">Florence, circa 1680</p>
+                    </div>
+                </article>
+
+                <!-- Product 11 -->
+                <article class="product-card" data-category="mirrors">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_ilegahilegahileg.png" alt="Grape Vine Mirror">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Oval Mirror</span>
+                        <h3 class="product-name">Vineyard Harvest Mirror</h3>
+                        <p class="product-origin">Tuscany, circa 1750</p>
+                    </div>
+                </article>
+
+                <!-- Product 12 -->
+                <article class="product-card" data-category="mirrors">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_3krh8m3krh8m3krh.png" alt="Lemon Blossom Mirror">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Oval Mirror</span>
+                        <h3 class="product-name">Amalfi Lemon Mirror</h3>
+                        <p class="product-origin">Amalfi Coast, circa 1770</p>
+                    </div>
+                </article>
+
+                <!-- Product 13 -->
+                <article class="product-card" data-category="furniture">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_vi6pc5vi6pc5vi6p.png" alt="Tile Top Side Table">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Side Table</span>
+                        <h3 class="product-name">Florentine Majolica Table</h3>
+                        <p class="product-origin">Florence, circa 1840</p>
+                    </div>
+                </article>
+
+                <!-- Product 14 -->
+                <article class="product-card" data-category="vases">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_4fd5qf4fd5qf4fd5 (1).png" alt="Harvest Basket Bowl">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Decorative Bowl</span>
+                        <h3 class="product-name">Autumn Harvest Basket</h3>
+                        <p class="product-origin">Deruta, circa 1810</p>
+                    </div>
+                </article>
+
+                <!-- Product 15 -->
+                <article class="product-card" data-category="furniture">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_cntma4cntma4cntm.png" alt="Long Tile Coffee Table">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Coffee Table</span>
+                        <h3 class="product-name">Grand Tuscan Console</h3>
+                        <p class="product-origin">Siena, circa 1860</p>
+                    </div>
+                </article>
+
+                <!-- Product 16 -->
+                <article class="product-card" data-category="vases">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_ly3mr0ly3mr0ly3m.png" alt="Classical Fluted Urn">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Classical Urn</span>
+                        <h3 class="product-name">Grecian Fluted Krater</h3>
+                        <p class="product-origin">Athens, circa 1790</p>
+                    </div>
+                </article>
+
+                <!-- Product 17 -->
+                <article class="product-card" data-category="figurines">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_wf6m6xwf6m6xwf6m (1).png" alt="Frog Figurines">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Whimsical Pair</span>
+                        <h3 class="product-name">Resting Frogs on Cushions</h3>
+                        <p class="product-origin">Capodimonte, circa 1900</p>
+                    </div>
+                </article>
+
+                <!-- Product 18 -->
+                <article class="product-card" data-category="figurines">
+                    <div class="product-image">
+                        <img src="photos/Gemini_Generated_Image_itbm0xitbm0xitbm.png" alt="Decorative Boxes">
+                        <div class="product-overlay">
+                            <button class="btn btn-secondary">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Trinket Collection</span>
+                        <h3 class="product-name">Venetian Treasure Boxes</h3>
+                        <p class="product-origin">Venice, circa 1870</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="section-subtitle">Our Heritage</p>
+                    <h2 class="section-title">A Legacy of Excellence</h2>
+                    <p class="about-text">For over 130 years, Antiqua Gallery has been the premier destination for collectors seeking the finest examples of Italian ceramic artistry and European decorative arts.</p>
+                    <p class="about-text">Each piece in our collection has been carefully authenticated by our team of expert historians and appraisers, ensuring that every acquisition represents not just a beautiful object, but a genuine piece of cultural heritage.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">130+</span>
+                            <span class="stat-label">Years of Excellence</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2,500+</span>
+                            <span class="stat-label">Pieces Sold</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">48</span>
+                            <span class="stat-label">Countries Served</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-content">
+                            <h4>Certificate of Authenticity</h4>
+                            <p>Every piece includes detailed provenance documentation</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-content">
+                            <h4>White Glove Delivery</h4>
+                            <p>Secure, insured worldwide shipping with expert handling</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-content">
+                            <h4>Expert Consultation</h4>
+                            <p>Personal guidance from our team of art historians</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-content">
+                            <h4>Restoration Services</h4>
+                            <p>Access to master craftsmen for conservation needs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="section-subtitle">Get in Touch</p>
+                    <h2 class="section-title">Schedule a Private Viewing</h2>
+                    <p class="contact-text">We invite you to experience our collection in person. Private viewings are available by appointment at our gallery, or we can arrange a virtual consultation for international clients.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Gallery Address</span>
+                            <p>Nauryzbaeva 42<br>Almaty, Kazakhstan</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Telephone</span>
+                            <p>+7 701 877 0377</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <p>inquiries@antiquagallery.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Gallery Hours</span>
+                            <p>Tuesday - Saturday: 10am - 6pm<br>Sunday - Monday: By Appointment</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Piece of Interest</label>
+                        <select id="interest" name="interest">
+                            <option value="">Select a category</option>
+                            <option value="vases">Vases & Urns</option>
+                            <option value="figurines">Figurines</option>
+                            <option value="mirrors">Mirrors</option>
+                            <option value="furniture">Furniture</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Get More Info</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-text">ANTIQUA</span>
+                        <span class="logo-sub">Gallery</span>
+                    </a>
+                    <p class="footer-tagline">Curating history's finest treasures since 1892</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="#collection">Collection</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-of-service.html">Terms of Service</a></li>
+                            <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Antiqua Gallery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="" alt="" id="modalImage">
+                </div>
+                <div class="modal-info">
+                    <span class="product-category" id="modalCategory"></span>
+                    <h2 id="modalName"></h2>
+                    <p class="product-origin" id="modalOrigin"></p>
+                    <p class="modal-description">This exceptional piece represents the pinnacle of artisan craftsmanship from its era. Each detail has been meticulously preserved, making it a remarkable addition to any distinguished collection.</p>
+                    <p class="modal-contact">For pricing and availability, please contact us:</p>
+                    <p class="modal-phone"><strong>+7 701 877 0377</strong></p>
+                    <div class="modal-actions">
+                        <button class="btn btn-primary">Inquire About This Piece</button>
+                        <button class="btn btn-outline">Schedule Viewing</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
