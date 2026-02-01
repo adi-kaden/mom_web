@@ -153,6 +153,7 @@ function initProductModal() {
     const modal = document.getElementById('productModal');
     const modalClose = modal.querySelector('.modal-close');
     const productCards = document.querySelectorAll('.product-card');
+    let scrollPosition = 0;
 
     productCards.forEach(card => {
         const viewButton = card.querySelector('.btn-secondary');
@@ -174,15 +175,19 @@ function initProductModal() {
             document.getElementById('modalOrigin').textContent = origin.textContent;
 
             // Show modal
+            scrollPosition = window.pageYOffset;
             modal.classList.add('active');
-            document.body.style.overflow = 'hidden';
+            document.body.classList.add('modal-open');
+            document.body.style.top = `-${scrollPosition}px`;
         });
     });
 
     // Close modal
     function closeModal() {
         modal.classList.remove('active');
-        document.body.style.overflow = '';
+        document.body.classList.remove('modal-open');
+        document.body.style.top = '';
+        window.scrollTo(0, scrollPosition);
     }
 
     modalClose.addEventListener('click', closeModal);
